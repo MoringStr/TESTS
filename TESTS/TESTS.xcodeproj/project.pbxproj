@@ -3,11 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2D1533CF401734F5C11B5AB9 /* Pods_TESTS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA54044FF1003BB8137B6EBC /* Pods_TESTS.framework */; };
+		3D24797A24A587DB00D6FE43 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24797924A587DB00D6FE43 /* Person.swift */; };
+		3D24797C24A587EA00D6FE43 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D24797B24A587EA00D6FE43 /* Student.swift */; };
 		3DDF72ED23D3D4C6002E3DCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDF72EC23D3D4C6002E3DCA /* AppDelegate.swift */; };
 		3DDF72EF23D3D4C6002E3DCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDF72EE23D3D4C6002E3DCA /* SceneDelegate.swift */; };
 		3DDF72F123D3D4C6002E3DCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDF72F023D3D4C6002E3DCA /* ViewController.swift */; };
@@ -42,6 +44,8 @@
 		0325F001A9C4C6345B23AAB9 /* Pods_TESTSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TESTSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A8EB3D97C5940096429FF6 /* Pods-TESTSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TESTSTests.release.xcconfig"; path = "Target Support Files/Pods-TESTSTests/Pods-TESTSTests.release.xcconfig"; sourceTree = "<group>"; };
 		3CC64380F0355526E2CA8AC7 /* Pods-TESTS-TESTSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TESTS-TESTSUITests.release.xcconfig"; path = "Target Support Files/Pods-TESTS-TESTSUITests/Pods-TESTS-TESTSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3D24797924A587DB00D6FE43 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		3D24797B24A587EA00D6FE43 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		3DDF72E923D3D4C6002E3DCA /* TESTS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TESTS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DDF72EC23D3D4C6002E3DCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DDF72EE23D3D4C6002E3DCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 				3DDF72EC23D3D4C6002E3DCA /* AppDelegate.swift */,
 				3DDF72EE23D3D4C6002E3DCA /* SceneDelegate.swift */,
 				3DDF72F023D3D4C6002E3DCA /* ViewController.swift */,
+				3D24797924A587DB00D6FE43 /* Person.swift */,
+				3D24797B24A587EA00D6FE43 /* Student.swift */,
 				3DDF72F223D3D4C6002E3DCA /* Main.storyboard */,
 				3DDF72F823D3D4C7002E3DCA /* Assets.xcassets */,
 				3DDF72FA23D3D4C7002E3DCA /* LaunchScreen.storyboard */,
@@ -168,7 +174,6 @@
 				CC07DF55DB4608E38FF3A6F9 /* Pods-TESTSTests.debug.xcconfig */,
 				22A8EB3D97C5940096429FF6 /* Pods-TESTSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -411,6 +416,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D24797A24A587DB00D6FE43 /* Person.swift in Sources */,
+				3D24797C24A587EA00D6FE43 /* Student.swift in Sources */,
 				3DDF72F123D3D4C6002E3DCA /* ViewController.swift in Sources */,
 				3DDF72F723D3D4C6002E3DCA /* TESTS.xcdatamodeld in Sources */,
 				3DDF72ED23D3D4C6002E3DCA /* AppDelegate.swift in Sources */,
